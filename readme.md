@@ -31,11 +31,19 @@ Les dejo un enlace documentando más acerca de esto (en español):
 
 ## <a id="3"></a>¿Que son los componentes web?
 
-Some text
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+- ### Ciclo de vida
+  
+<p align="center">
+    <img src="./source\life-cicle-web-components.jpg" width="500" title="Ciclo de vida"/>
+</p>
+
+  
+
+- ### Slots
+  - 
+  - 
+
 
 ## <a id="4"></a> Some text
 
@@ -63,5 +71,10 @@ Please read through our [contributing guidelines](https://reponame/blob/master/C
 Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
 
 Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+
+```javascript
+const prueba = '';
+
+```
 
 

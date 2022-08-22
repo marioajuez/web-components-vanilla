@@ -8,8 +8,24 @@
 - [Introducción](#1)
 - [Problema](#2)
 - [¿ Que son los componentes web ?](#3)
-- [ dasd](#4)
-- [dasdsad](#5)
+- [Beneficios](#4)
+- [Ciclo de vida](#5)
+- [Custom Elements](#5)
+- [template](#5)
+- [Shadow dom](#5)
+- [Manejo de estados](#5)
+- [slots](#6)
+    - [content slots](#6)
+    - [multi content slots](#6)
+    - [atributos](#6)
+- [estilos en components](#6)
+  - [estilos en components](#6)
+  - [estilos en components](#6)
+  - [CSS custom propierties](#6)
+
+- [integrar componentes de terceros](#6)
+- [Proyectos](#6)
+
   
 
 ## <a id="1"></a> Introducción

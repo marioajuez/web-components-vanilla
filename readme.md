@@ -5,7 +5,7 @@
 - [¿ Qué problemas resuelven los Web Components ?](#2)
 - [¿ Que son los componentes web ?](#3)
 - [Beneficios](#4)
-- [APIS WEB COMPONENTS](#4)
+- [APIs WEB COMPONENTS](#5)
   - [HTML5](#5.2)
     - [STANDARD](#5.2)
     - [ETIQUETAS PERSONALIZADAS](#5.2)
@@ -15,7 +15,6 @@
   - [ES MODULES](#5.4)
   - [Manejo de estados](#5.4)
 - [Ciclo de vida](#5)
-
 - [slots](#6)
     - [content slots](#6.1)
     - [multi content slots](#6.2)
@@ -27,8 +26,6 @@
 
 - [integrar componentes de terceros](#8)
 - [Proyectos](#9)
-
-  
 
 ## <a id="1"></a> Introducción
 
@@ -52,54 +49,43 @@ Les dejo un enlace documentando más acerca de esto (en español):
   Usan estándares web, para conseguir el mismo resultado e incluso mejor
   No necesitamos cargar ninguna librería para obtener una arquitectura más escalable.
 
-  RESUMEN: El desarrollo web actualmente se está volviendo complicado debido a que existen muchas tecnologías que si bien facilitan el desarrollo no están dejando usar otras para un mismo proyecto, es ahi donde entran los webs components para obtener el mismo resultado con web api’s
-
 ## <a id="3"></a>¿Que son los componentes web?
 
 RESUMEN: El desarrollo web actualmente se está volviendo complicado debido a que existen muchas tecnologías que si bien facilitan el desarrollo no están dejando usar otras para un mismo proyecto, es ahi donde entran los webs components para obtener el mismo resultado con web api’s
 
-## <a id="3"></a>apis
-
-  - <a id="5.1"></a> Custom Elements
-  - <a id="5.2"></a> template
-  - <a id="5.3"></a> Shadow dom
 
 ## <a id="4"></a> Beneficios
 
-REUTILIZACIÓN
-Don’t Repeat Yourself (you only have to build it once)
+- **REUTILIZACIÓN**:  Don’t Repeat Yourself (you only have to build it once)
 
-LEGIBILIDAD
-Hace más fácil a los demás entender el código. Mejor semántica.
+- **LEGIBILIDAD**:  Hace más fácil a los demás entender el código. Mejor semántica.
 
-MANTENIBILIDAD
-Cada uno de los componentes puede ser escrito y probado de forma individual, sin comprometer la aplicación completa.
+- **MANTENIBILIDAD**: Cada uno de los componentes puede ser escrito y probado de forma individual, sin comprometer la aplicación completa.
 
-INTEROPERABILIDAD
-Los frameworks y librerías no están hechos para coexistir entre ellos. Los Web Components sí.
+- **INTEROPERABILIDAD**: Los frameworks y librerías no están hechos para coexistir entre ellos. Los Web Components sí.
 
-CONSISTENCIA
-Gracias a la naturaleza reutilizable e interoperable de los Web Components ya no tendrás que crear los mismos componentes en diferentes frameworks o librerías.
-
-De hecho, los beneficios son similares a los de cualquier framework o librería (exceptuando la interoperabilidad 👀).
-.
-
-Reutilización
-Legibilidad
-Mantenibilidad
-Interoperabilidad
-Consistencia
+- **CONSISTENCIA**: Gracias a la naturaleza reutilizable e interoperable de los Web Components ya no tendrás que crear los mismos componentes en diferentes frameworks o librerías.
 
 
-```javascript
+## <a id="5"></a> APIs de web components
+qq
+ <a id="5.1"></a> **HTML5**
+    - <a id="5.1.1"></a> **STANDARD**
+    - <a id="5.1"></a> **ETIQUETAS PERSONALIZADAS**
+  - <a id="5.1"></a> **Custom Elements**
+
+
+  - <a id="5.2"></a> **template**
+  - <a id="5.3"></a> **Shadow dom**
+  - <a id="5.3"></a> **Manejo de estados**
+
+
+
 const prueba = '';
-
 ```
-
-
-- ### Slots
-  - 
-  - 
+## <a id="4"></a>  Slots
+  - ### Slots
+  - ### Slots
 
 ```text
 folder1/
@@ -115,18 +101,20 @@ folder1/
 
 
 
-  constructor: Directamente desde el JavaScript Engine, el constructor nos servirá para definir y cargar todas las variables en memoria que necesitemos, es mala práctica pintar el componente aquí
-  connectedCallback: Cuando el componente ya está pintado dentro del DOM ypodemos hacer uso de él.
-  attributeChangedCallback: Cuando un atributo de nuestro componente cambia
-  disconnectedCallback: Cuando el componente se “destruye” o se quita del DOM
-  adoptedCallback: Cuando el componente es movido a un nuevo DOM, básicamente cuando es pintado desde un iframe por ejemplo 😄
-  .
+  **constructor**: Directamente desde el JavaScript Engine, el constructor nos servirá para definir y cargar todas las variables en memoria que necesitemos, es mala práctica pintar el componente aquí.
+
+  **connectedCallback**: Cuando el componente ya está pintado dentro del DOM ypodemos hacer uso de él.
+
+  **attributeChangedCallback**: Cuando un atributo de nuestro componente cambia.
+
+  **disconnectedCallback**: Cuando el componente se “destruye” o se quita del DOM.
+
+  **adoptedCallback**: Cuando el componente es movido a un nuevo DOM, básicamente cuando es pintado desde un iframe por ejemplo 😄.
+
   Más información sobre este lifecycle aquí (en español):
 
   - [Mas información](https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements#usando_callbacks_de_ciclo_de_vida)
 
-
-  
 <p align="center">
     <img src="./source\life-cicle-web-components.jpg" width="500" title="Ciclo de vida"/>
 </p>

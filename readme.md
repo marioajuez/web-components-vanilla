@@ -68,13 +68,10 @@ RESUMEN: El desarrollo web actualmente se está volviendo complicado debido a qu
 
 
 ## <a id="5"></a> APIs de web components
-qq
- <a id="5.1"></a> **HTML5**
+  <a id="5.1"></a> **HTML5**
     - <a id="5.1.1"></a> **STANDARD**
     - <a id="5.1"></a> **ETIQUETAS PERSONALIZADAS**
   - <a id="5.1"></a> **Custom Elements**
-
-
   - <a id="5.2"></a> **template**
   - <a id="5.3"></a> **Shadow dom**
   - <a id="5.3"></a> **Manejo de estados**
